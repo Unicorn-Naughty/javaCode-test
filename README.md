@@ -12,13 +12,15 @@
 <!--Установка-->
 ## Установка 
 
+P.S Иногда сервер 500-тит, требуется перезагрузить страницу, извиняюсь !
+
 1. Клонирование репозитория 
 
-```git clone https://github.com/Unicorn-Naughty/simpleTodoList.git```
+```git clone https://github.com/Unicorn-Naughty/javaCode-test.git```
 
 2. Переход в директорию javaCode-test
 
-```cd simpleTodoList```
+```cd javaCode-test```
 
 3. Установка зависимостей
 
