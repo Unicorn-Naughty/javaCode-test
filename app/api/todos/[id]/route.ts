@@ -64,7 +64,7 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
 
     } catch (error) {
 
-        console.log();
+        console.log(error);
         return NextResponse.json({ message: 'Не удалось обновить задачу' }, { status: 500 })
     }
 }
