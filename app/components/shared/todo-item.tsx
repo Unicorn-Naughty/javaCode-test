@@ -104,6 +104,7 @@ export const TodoItem: React.FC<Props> = ({
       </div>
       <div className="flex gap-2 items-center">
         <button
+          disabled={item.doneStatus}
           title="Редактировать товар"
           className="hover:opacity-50 transition-all ease-linear"
           onClick={() => setChangedOpen(!changedOpen)}
